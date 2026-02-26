@@ -4,7 +4,7 @@
 */
 
 body {
-    font-family: 'Indie Flower', cursive !important;
+    /* font-family: 'Indie Flower', cursive !important; */
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -13,7 +13,7 @@ body {
     align-items: center;
 
     /* Animated gradient background */
-    background: linear-gradient(135deg, #FDE3A7, #F7B733, #FF6F61, #FFD194);
+    background: linear-gradient(135deg, #FDE3A7, hsl(40, 40%, 41%), #FF6F61, #FFD194 , #9c7825, #83682a);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
 }
